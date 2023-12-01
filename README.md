@@ -32,6 +32,20 @@
   <img src="/docs/demo.gif?sanitize=true" />
 </p>
 
+## THE REASON WE FORKED THIS REPO
+
+In [this PR](https://github.com/yairEO/tagify/pull/846), the code owner stated that he no longer as time to do updates -- he won't commit to closing the repo, but he also isn't going to update it:
+
+> > Yeah it's not really getting updates because of my time going to other things..
+> > I have a billion open tabs on things to do or read and it seems I can barely keep up, as the world is going forward faster and faster and I constantly must read more and more and do less and less actual coding..
+> > This project isn't dead - I really want to get some things done. the codebase is far far from my current coding standards as I've started it in 2017 as a small project that bloated in size due to endless features, and not it gotten a bit more difficult to maintain
+>
+> Yes, I understand what you mean perfectly. Still working great so that's ok. Still is one of the best solutions out there for tags ;)
+
+Even if we were to create a PR for the code fixes we need for our app, it's likely they would be ignored. Therefore, because of our immediate need for this code to be updated, we've decided to fork it and perform updates to it ourselves as needed for the time being.
+
+We need to replace this library with one that is actively maintained. Here's one that provides "on the fly" tag creation https://github.com/orchidjs/tom-select.
+
 ## Table of Contents
 
 <!--ts-->
